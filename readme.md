@@ -1,2 +1,2 @@
 Heroku URL:
-https://git.heroku.com/ckasin.git
+https://ckasin.herokuapp.com/
