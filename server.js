@@ -9,6 +9,10 @@ function greet (){
     return random;
 }
 
+app.get('/', function(request, response) {
+  response.render('pages/index');
+});
+
 app.get('/random/:id', function(req,res){
     res.send(greet() + " " + req.params.id);
 })
